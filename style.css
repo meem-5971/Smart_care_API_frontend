@@ -1,0 +1,170 @@
+body{
+    /* width: 1200px; */
+    margin:auto;
+    background-color: rgb(197, 196, 196);
+}
+nav{
+    background-color: aquamarine;
+}
+li{
+    list-style: none;
+}
+.menu:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.menu{
+font-size: 20px;
+}
+.banner-container{
+    width: 1200px;
+    margin:auto;
+    padding: 30px;
+}
+.banner{
+    height: 450px;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(cyan,rgb(33,137,137));
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+
+.bn-img{
+    width:325px;
+    margin-top:-50px
+}
+
+.service-container{
+    width:1200px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.title{
+    font-size: 44px;
+    color:aqua;
+    text-align:center;
+}
+
+.doctor-container{
+margin-top: 50px;
+padding: 30px;
+}
+.doc-card{
+    height: 360px;
+    width: 300px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.doc-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#search{
+    padding: 10px;
+    border:none;
+    width: 75%;
+}
+
+.nodata{
+    display: none;
+}
+#spinner{
+    display: none;
+}
+
+.review-card{
+    width:250px;
+    height: 300px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.review-card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+footer{
+    padding: 50px;
+    background: linear-gradient(cyan,rgb(33,137,137));
+}
+
+.doctor-img img{
+    width:150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.doc-details-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 50px;
+    width: 75%;
+    margin : auto;
+
+}
+
+.doc-detail-btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.user-detais-container{
+    height: 100vh;
+    width:75%;
+    margin:auto;
+}
+
+.user-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.user-all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.all-appointment-container{
+ width: 90%;
+ margin: auto;
+ height: 100vh;
+}
+
+.doctor{
+    width:350 px;
+    height: 400 px;
+    box-shadow: 4px 4px 8px gray;
+    background-color: gray;
+    color: bisque;
+    border-radius: 10px;
+}
+
+.symtom{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border:none;
+}
